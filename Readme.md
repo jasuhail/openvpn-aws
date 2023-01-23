@@ -5,11 +5,14 @@ A Terraform module to deploy a OpenVPN server on AWS.
 The module supports multi region deployment & values in yaml format. 
 
 ## Prerequisites
-Before using this module, you'll need to get openvpn ami from the specific region you want to deploy.
 
+Before using this module, you'll need to have an AWS account and setup your local machine with aws access key to access aws resource.
+
+Just create admin acocunt which has full admin access and create acces key. Once you VPN was setup, delete the access ley from aws consoel.
 
 
 ## Variables
+
 | Variable Name | Type | Required |Description |
 |---------------|-------------|-------------|-------------|
 |`AWS_REGION`|`string`|Yes|Specify the region you want to deploy your VPN Server.|
